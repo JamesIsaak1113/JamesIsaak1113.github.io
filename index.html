@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lapki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <link rel="stylesheet" href="CSS/swiper.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="fonts/CasadSerial%20Heavy%20Regular.ttf " rel="stylesheet">
+    <link href="fonts/font.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="header">
+    <div class="logo">LAPKI<span>.</span></div>
+    <div class="menu">
+            <a href="About.html">Приюты</a>
+            <a href="Production.html">Животные</a>
+
+            <a href="Work.html">Помочь</a>
+            <a href="Contact.html">О проекте</a>
+    </div>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><div>Let's make something<br> extraordinary</div> <div><div class="button"> Помочь</div></div></div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+
+<script src="JS/JQ.js"></script>
+<script src="JS/swiper.jquery.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+</script>
+</body>
+</html>
