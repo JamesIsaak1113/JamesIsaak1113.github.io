@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(25,25,25);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+.logo{
+    height: 100%;
+    width: 250px;
+    background-image: url(../images/RZD_logo.png);
+    background-size: 175px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 80% ;
+
+
+    background-color: rgb(255,255,255);
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(35,35,35);
+    width: 20%;
+
+
+}
+.menuItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(36, 39, 44, 1);
+
+
+    width: auto;
+    height: 50px;
+
+    border-bottom: 1px solid rgb(229,242,251);
+
+    color: rgb(248,246,247);
+    text-align: center;
+    line-height: 20px;
+
+}
+.menuItem:hover{
+    background-color: rgb(101,172,4);
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+.icon{
+
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 50px;
+
+}
+.icon1{
+    background-image: url(../images/contract.png);
+}
+.icon2{
+    background-image: url(../images/folder-invoices.png);
+}
+.icon3{
+    background-image: url(../images/Data-Line-Chart-icon.png);
+}
+.icon4{
+    background-image: url(../images/money.png);
+}
+.icon5{
+    background-image: url(../images/effect.png);
+}
+.icon6{
+    background-image: url(../images/books_3025.png);
+}
+.icon7{
+    background-image: url(../images/settings.png);
+}
+.footer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    background-color:  rgb(25,25,25);
+}
+.cr{
+    height: 100%;
+    width: 100px;
+    background-color: red;
+
+}
+.adress{
+    height: 100%;
+    width: 100px;
+    background-color: yellow;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:980px;
+    width: 100%;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+.content1{
+    background-color: rgb(35,35,35);
+    display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.lk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 900px;
+    color: white;
+
+    font-size: 60px;
+}
+
+.li p{
+    text-align: center;
+
+}
+.enter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+
+
+}
+.enter:hover{
+    background-color: rgb(101,172,4);
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    color: black;
+
+}
